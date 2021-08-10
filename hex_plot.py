@@ -3,17 +3,20 @@
 """
 Created on Mon Feb 22 14:05:17 2021
 
-@author: admin
+Ethan Davis
 """
 
 
-"""HEXAGON STUFF"""
+"""
+Plot optimal transport network on hexagonal lattice
+Recreation of Bohn and Magnasco's 2007 paper
+"""
 
 import numpy as np
 from matplotlib import pyplot as plt
 from tqdm import tqdm
-def make_hex_matrix(n=8):
 
+def make_hex_matrix(n=8):
     
     #Define a hexagon by rows
     rows = []
